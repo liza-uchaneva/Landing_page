@@ -1,0 +1,131 @@
+/* text size and style */
+.smallWhiteText, .signUpButton{
+    font-size: 18px;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+.smallWhiteText, .upperSignUp,
+.lowerSignUp{
+    color: #E5E7EB;
+}
+.textUnderSquare, .informHeading,
+.quoteText, .author{
+    color: #1F2937;
+}
+.mainText{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    flex: 1 1 auto;
+}
+.informHeading{
+    font-size: 36px;
+    font-weight: bold;
+}
+/* main boxes */
+.headerBox,.about,
+.attention, .attentionBlock{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+.information, .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+.about, .information,
+.quote, .attention{
+    padding: 48px  16px;
+}
+.headerBox,.about{
+    background: #1F2937;
+}
+.headerBox{
+    padding: 16px;
+}
+.quote{
+    background: #E5E7EB;
+}
+.attentionBlock{
+    background: #3382F6; 
+     max-width: 800px;
+    height: 150px;
+}
+/* child boxes */
+.textWithHeading, 
+.logo, .links{
+    flex: 1 1 auto;
+    max-height:400px; 
+    max-width: 400px;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.textWithHeading{
+    display: flex;
+    flex-direction: column;
+}
+.placeholder{
+    background: gray;  
+    border: 80px solid gray;  
+    align-items: center;
+    justify-content: center;
+}
+.informPics{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    max-width: 800px;
+}
+.picInf{
+    padding: 20px;
+}
+.quoteText{
+    font-size: 36px;
+    font-style: italic;
+    max-width: 600px;
+}
+.author{
+    font-weight: bold;
+}
+/* grandchildren */
+.upperSignUp, .lowerSignUp{
+    background: #3382F6;
+    border-radius:10px; 
+    padding:15px;
+    max-height:50px; 
+    max-width: 120px;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+.upperSignUp{
+    border: none; 
+
+}
+.lowerSignUp{
+    border: 1px solid #F9FAF8; 
+}
+.square{
+  width: 130px;
+  height: 130px;
+  border: 2px solid #3382F6;
+  border-radius:10px; 
+  background: #E5E7EB;
+}
+.textUnderSquare{
+    max-width: 130px;
+}
